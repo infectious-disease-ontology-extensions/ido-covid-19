@@ -69,6 +69,7 @@ Declaration(Class(obo:CHEBI_23367))
 Declaration(Class(obo:CHEBI_24432))
 Declaration(Class(obo:CHEBI_33696))
 Declaration(Class(obo:CHEBI_33697))
+Declaration(Class(obo:CHEBI_33699))
 Declaration(Class(obo:CHEBI_33839))
 Declaration(Class(obo:CHEBI_4705))
 Declaration(Class(obo:CL_0000000))
@@ -191,6 +192,9 @@ Declaration(Class(obo:GO_0002460))
 Declaration(Class(obo:GO_0002468))
 Declaration(Class(obo:GO_0002471))
 Declaration(Class(obo:GO_0002472))
+Declaration(Class(obo:GO_0003674))
+Declaration(Class(obo:GO_0003823))
+Declaration(Class(obo:GO_0005488))
 Declaration(Class(obo:GO_0006909))
 Declaration(Class(obo:GO_0006952))
 Declaration(Class(obo:GO_0006954))
@@ -200,9 +204,13 @@ Declaration(Class(obo:GO_0008150))
 Declaration(Class(obo:GO_0009987))
 Declaration(Class(obo:GO_0016064))
 Declaration(Class(obo:GO_0016192))
+Declaration(Class(obo:GO_0016234))
 Declaration(Class(obo:GO_0019013))
 Declaration(Class(obo:GO_0019028))
+Declaration(Class(obo:GO_0019029))
+Declaration(Class(obo:GO_0019030))
 Declaration(Class(obo:GO_0019031))
+Declaration(Class(obo:GO_0019042))
 Declaration(Class(obo:GO_0019061))
 Declaration(Class(obo:GO_0019062))
 Declaration(Class(obo:GO_0019068))
@@ -234,6 +242,7 @@ Declaration(Class(obo:GO_0032635))
 Declaration(Class(obo:GO_0032637))
 Declaration(Class(obo:GO_0032638))
 Declaration(Class(obo:GO_0032991))
+Declaration(Class(obo:GO_0038197))
 Declaration(Class(obo:GO_0039713))
 Declaration(Class(obo:GO_0039714))
 Declaration(Class(obo:GO_0039716))
@@ -549,10 +558,14 @@ Declaration(Class(obo:IDO_0100537))
 Declaration(Class(obo:IDO_0100722))
 Declaration(Class(obo:NCBITaxon_10239))
 Declaration(Class(obo:NCBITaxon_11118))
+Declaration(Class(obo:NCBITaxon_1250315))
+Declaration(Class(obo:NCBITaxon_12877))
 Declaration(Class(obo:NCBITaxon_1335626))
+Declaration(Class(obo:NCBITaxon_198600))
 Declaration(Class(obo:NCBITaxon_2))
 Declaration(Class(obo:NCBITaxon_2169561))
 Declaration(Class(obo:NCBITaxon_227859))
+Declaration(Class(obo:NCBITaxon_265963))
 Declaration(Class(obo:NCBITaxon_2731342))
 Declaration(Class(obo:NCBITaxon_2759))
 Declaration(Class(obo:NCBITaxon_35237))
@@ -609,7 +622,10 @@ Declaration(Class(obo:PR_000000017))
 Declaration(Class(obo:PR_000001004))
 Declaration(Class(obo:PR_000001091))
 Declaration(Class(obo:PR_000001092))
+Declaration(Class(obo:PR_000001096))
 Declaration(Class(obo:PR_000001317))
+Declaration(Class(obo:PR_000001335))
+Declaration(Class(obo:PR_000001362))
 Declaration(Class(obo:PR_000001366))
 Declaration(Class(obo:PR_000001368))
 Declaration(Class(obo:PR_000001369))
@@ -630,6 +646,7 @@ Declaration(Class(obo:PR_000024938))
 Declaration(Class(obo:PR_000024939))
 Declaration(Class(obo:PR_000024990))
 Declaration(Class(obo:PR_000025848))
+Declaration(Class(obo:PR_000028205))
 Declaration(Class(obo:PR_000036197))
 Declaration(Class(obo:PR_000050032))
 Declaration(Class(obo:PR_000050262))
@@ -652,6 +669,20 @@ Declaration(Class(obo:PR_P0DTD2))
 Declaration(Class(obo:PR_P0DTD3))
 Declaration(Class(obo:PR_P0DTD8))
 Declaration(Class(obo:RO_0002577))
+Declaration(Class(obo:SO_0000001))
+Declaration(Class(obo:SO_0000110))
+Declaration(Class(obo:SO_0001026))
+Declaration(Class(obo:SO_0001041))
+Declaration(Class(obo:SO_0001042))
+Declaration(Class(obo:SO_0001169))
+Declaration(Class(obo:SO_0001198))
+Declaration(Class(obo:SO_0001199))
+Declaration(Class(obo:SO_0001200))
+Declaration(Class(obo:SO_0001201))
+Declaration(Class(obo:SO_0001202))
+Declaration(Class(obo:SO_0001235))
+Declaration(Class(obo:SO_0001260))
+Declaration(Class(obo:SO_0001411))
 Declaration(Class(obo:SYMP_0000025))
 Declaration(Class(obo:SYMP_0000551))
 Declaration(Class(obo:SYMP_0000613))
@@ -735,6 +766,19 @@ Declaration(Class(obo:VIDO_0001417))
 Declaration(Class(obo:VIDO_0001418))
 Declaration(Class(obo:VIDO_0001419))
 Declaration(Class(obo:VIDO_0001420))
+Declaration(Class(obo:VIDO_0001421))
+Declaration(Class(obo:VIDO_0001422))
+Declaration(Class(obo:VIDO_0001423))
+Declaration(Class(obo:VIDO_0001424))
+Declaration(Class(obo:VIDO_0001425))
+Declaration(Class(obo:VIDO_0001426))
+Declaration(Class(obo:VIDO_0001427))
+Declaration(Class(obo:VIDO_0001428))
+Declaration(Class(obo:VIDO_0001429))
+Declaration(Class(obo:VIDO_0001430))
+Declaration(Class(obo:VIDO_0001431))
+Declaration(Class(obo:VIDO_0001432))
+Declaration(Class(obo:VIDO_0001433))
 Declaration(Class(<http://purl.obolibrary.org/obo/COVIDO:0001287>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VIDO:0001395>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ido.owl/CARO_0000005>))
@@ -2372,6 +2416,14 @@ AnnotationAssertion(obo:IAO_0000412 obo:CHEBI_33697 "http://purl.obolibrary.org/
 AnnotationAssertion(rdfs:label obo:CHEBI_33697 "ribonucleic acid"@en)
 SubClassOf(obo:CHEBI_33697 obo:CHEBI_33696)
 
+# Class: obo:CHEBI_33699 (messenger RNA)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CHEBI_33699 "An RNA molecule that transfers the coding information for protein synthesis from the chromosomes to the ribosomes mRNA is formed from a DNA template by transcription. It may be a copy of a single gene or of several adjacent genes (polycistronic mRNA). On the ribosome, the sequence is converted into the programmed amino acid sequence through translation.")
+AnnotationAssertion(obo:IAO_0000412 obo:CHEBI_33699 "http://purl.obolibrary.org/obo/chebi.owl")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:CHEBI_33699 "mRNA; template RNA")
+AnnotationAssertion(rdfs:label obo:CHEBI_33699 "messenger RNA")
+SubClassOf(obo:CHEBI_33699 obo:CHEBI_33697)
+
 # Class: obo:CHEBI_33839 (macromolecule)
 
 AnnotationAssertion(obo:IAO_0000115 obo:CHEBI_33839 "Molecular entity of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.")
@@ -2432,6 +2484,7 @@ AnnotationAssertion(rdfs:comment obo:CL_0000096 "Neutrophils are also capable of
 AnnotationAssertion(rdfs:label obo:CL_0000096 "mature neutrophil")
 SubClassOf(obo:CL_0000096 obo:CL_0000775)
 SubClassOf(obo:CL_0000096 ObjectSomeValuesFrom(obo:RO_0002215 obo:GO_0006909))
+SubClassOf(obo:CL_0000096 ObjectSomeValuesFrom(obo:RO_0002215 obo:GO_0032637))
 
 # Class: obo:CL_0000097 (mast cell)
 
@@ -2622,22 +2675,22 @@ EquivalentClasses(obo:CL_0000946 ObjectIntersectionOf(obo:CL_0000945 ObjectSomeV
 
 # Class: obo:CL_0000947 (IgE plasma cell)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz"^^xsd:string) Annotation(oboInOwl:hasDbXref "GO_REF:0000031"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:781735149"^^xsd:string) obo:IAO_0000115 obo:CL_0000947 "A long lived plasma cell that secretes IgE."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz") Annotation(oboInOwl:hasDbXref "GO_REF:0000031") Annotation(oboInOwl:hasDbXref "ISBN:781735149") obo:IAO_0000115 obo:CL_0000947 "A long lived plasma cell that secretes IgE."^^xsd:string)
 AnnotationAssertion(obo:IAO_0000412 obo:CL_0000947 "http://purl.obolibrary.org/obo/cl.owl")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:CL_0000947 "cell"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:CL_0000947 "IgE plasma cell"^^xsd:string)
 EquivalentClasses(obo:CL_0000947 ObjectIntersectionOf(obo:CL_0000974 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071743)))
-SubClassOf(Annotation(oboInOwl:is_inferred "true"^^xsd:string) obo:CL_0000947 obo:CL_0000974)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CL_0000947 obo:CL_0000974)
 SubClassOf(obo:CL_0000947 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071743))
 
 # Class: obo:CL_0000951 (IgE short lived plasma cell)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz"^^xsd:string) Annotation(oboInOwl:hasDbXref "GO_REF:0000031"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:781735149"^^xsd:string) obo:IAO_0000115 obo:CL_0000951 "A short lived plasma cell that secretes IgE."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz") Annotation(oboInOwl:hasDbXref "GO_REF:0000031") Annotation(oboInOwl:hasDbXref "ISBN:781735149") obo:IAO_0000115 obo:CL_0000951 "A short lived plasma cell that secretes IgE."^^xsd:string)
 AnnotationAssertion(obo:IAO_0000412 obo:CL_0000951 "http://purl.obolibrary.org/obo/cl.owl")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:CL_0000951 "cell"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:CL_0000951 "IgE short lived plasma cell"^^xsd:string)
 EquivalentClasses(obo:CL_0000951 ObjectIntersectionOf(obo:CL_0000975 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071743)))
-SubClassOf(Annotation(oboInOwl:is_inferred "true"^^xsd:string) obo:CL_0000951 obo:CL_0000975)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CL_0000951 obo:CL_0000975)
 SubClassOf(obo:CL_0000951 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071743))
 
 # Class: obo:CL_0000968 (Be cell)
@@ -2665,62 +2718,62 @@ SubClassOf(obo:CL_0000975 obo:CL_0000786)
 
 # Class: obo:CL_0000976 (IgA short lived plasma cell)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz"^^xsd:string) Annotation(oboInOwl:hasDbXref "GO_REF:0000031"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:781735149"^^xsd:string) obo:IAO_0000115 obo:CL_0000976 "A short lived plasma cell that secretes IgA. These cells may be found in the bone marrow as well as in the mucosal immune system."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz") Annotation(oboInOwl:hasDbXref "GO_REF:0000031") Annotation(oboInOwl:hasDbXref "ISBN:781735149") obo:IAO_0000115 obo:CL_0000976 "A short lived plasma cell that secretes IgA. These cells may be found in the bone marrow as well as in the mucosal immune system."^^xsd:string)
 AnnotationAssertion(obo:IAO_0000412 obo:CL_0000976 "http://purl.obolibrary.org/obo/cl.owl")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:CL_0000976 "cell"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:CL_0000976 "IgA short lived plasma cell"^^xsd:string)
 EquivalentClasses(obo:CL_0000976 ObjectIntersectionOf(obo:CL_0000975 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071746)))
-SubClassOf(Annotation(oboInOwl:is_inferred "true"^^xsd:string) obo:CL_0000976 obo:CL_0000975)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CL_0000976 obo:CL_0000975)
 SubClassOf(obo:CL_0000976 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071746))
 
 # Class: obo:CL_0000977 (IgG short lived plasma cell)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz"^^xsd:string) Annotation(oboInOwl:hasDbXref "GO_REF:0000031"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:781735149"^^xsd:string) obo:IAO_0000115 obo:CL_0000977 "A short lived plasma cell that secretes IgG."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz") Annotation(oboInOwl:hasDbXref "GO_REF:0000031") Annotation(oboInOwl:hasDbXref "ISBN:781735149") obo:IAO_0000115 obo:CL_0000977 "A short lived plasma cell that secretes IgG."^^xsd:string)
 AnnotationAssertion(obo:IAO_0000412 obo:CL_0000977 "http://purl.obolibrary.org/obo/cl.owl")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:CL_0000977 "cell"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:CL_0000977 "IgG short lived plasma cell"^^xsd:string)
 EquivalentClasses(obo:CL_0000977 ObjectIntersectionOf(obo:CL_0000975 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071736)))
-SubClassOf(Annotation(oboInOwl:is_inferred "true"^^xsd:string) obo:CL_0000977 obo:CL_0000975)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CL_0000977 obo:CL_0000975)
 SubClassOf(obo:CL_0000977 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071736))
 
 # Class: obo:CL_0000978 (IgM short lived plasma cell)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz"^^xsd:string) Annotation(oboInOwl:hasDbXref "GO_REF:0000031"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:781735149"^^xsd:string) obo:IAO_0000115 obo:CL_0000978 "A short lived plasma cell that secretes IgM."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz") Annotation(oboInOwl:hasDbXref "GO_REF:0000031") Annotation(oboInOwl:hasDbXref "ISBN:781735149") obo:IAO_0000115 obo:CL_0000978 "A short lived plasma cell that secretes IgM."^^xsd:string)
 AnnotationAssertion(obo:IAO_0000412 obo:CL_0000978 "http://purl.obolibrary.org/obo/cl.owl")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:CL_0000978 "cell"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:CL_0000978 "IgM short lived plasma cell"^^xsd:string)
 EquivalentClasses(obo:CL_0000978 ObjectIntersectionOf(obo:CL_0000975 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071754)))
-SubClassOf(Annotation(oboInOwl:is_inferred "true"^^xsd:string) obo:CL_0000978 obo:CL_0000975)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CL_0000978 obo:CL_0000975)
 SubClassOf(obo:CL_0000978 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071754))
 
 # Class: obo:CL_0000985 (IgG plasma cell)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz"^^xsd:string) Annotation(oboInOwl:hasDbXref "GO_REF:0000031"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:781735149"^^xsd:string) obo:IAO_0000115 obo:CL_0000985 "A fully differentiated plasma cell that secretes IgG."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz") Annotation(oboInOwl:hasDbXref "GO_REF:0000031") Annotation(oboInOwl:hasDbXref "ISBN:781735149") obo:IAO_0000115 obo:CL_0000985 "A fully differentiated plasma cell that secretes IgG."^^xsd:string)
 AnnotationAssertion(obo:IAO_0000412 obo:CL_0000985 "http://purl.obolibrary.org/obo/cl.owl")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:CL_0000985 "cell"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:CL_0000985 "IgG plasma cell"^^xsd:string)
 EquivalentClasses(obo:CL_0000985 ObjectIntersectionOf(obo:CL_0000974 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071736)))
-SubClassOf(Annotation(oboInOwl:is_inferred "true"^^xsd:string) obo:CL_0000985 obo:CL_0000974)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CL_0000985 obo:CL_0000974)
 SubClassOf(obo:CL_0000985 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071736))
 
 # Class: obo:CL_0000986 (IgM plasma cell)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz"^^xsd:string) Annotation(oboInOwl:hasDbXref "GO_REF:0000031"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:781735149"^^xsd:string) obo:IAO_0000115 obo:CL_0000986 "A fully differentiated plasma cell that secretes IgM."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz") Annotation(oboInOwl:hasDbXref "GO_REF:0000031") Annotation(oboInOwl:hasDbXref "ISBN:781735149") obo:IAO_0000115 obo:CL_0000986 "A fully differentiated plasma cell that secretes IgM."^^xsd:string)
 AnnotationAssertion(obo:IAO_0000412 obo:CL_0000986 "http://purl.obolibrary.org/obo/cl.owl")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:CL_0000986 "cell"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:CL_0000986 "IgM plasma cell"^^xsd:string)
 EquivalentClasses(obo:CL_0000986 ObjectIntersectionOf(obo:CL_0000974 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071754)))
-SubClassOf(Annotation(oboInOwl:is_inferred "true"^^xsd:string) obo:CL_0000986 obo:CL_0000974)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CL_0000986 obo:CL_0000974)
 SubClassOf(obo:CL_0000986 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071754))
 
 # Class: obo:CL_0000987 (IgA plasma cell)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz"^^xsd:string) Annotation(oboInOwl:hasDbXref "GO_REF:0000031"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:781735149"^^xsd:string) obo:IAO_0000115 obo:CL_0000987 "A fully differentiated plasma cell that secretes IgA."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:msz") Annotation(oboInOwl:hasDbXref "GO_REF:0000031") Annotation(oboInOwl:hasDbXref "ISBN:781735149") obo:IAO_0000115 obo:CL_0000987 "A fully differentiated plasma cell that secretes IgA."^^xsd:string)
 AnnotationAssertion(obo:IAO_0000412 obo:CL_0000987 "http://purl.obolibrary.org/obo/cl.owl")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:CL_0000987 "cell"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:CL_0000987 "IgA plasma cell"^^xsd:string)
 EquivalentClasses(obo:CL_0000987 ObjectIntersectionOf(obo:CL_0000974 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071746)))
-SubClassOf(Annotation(oboInOwl:is_inferred "true"^^xsd:string) obo:CL_0000987 obo:CL_0000974)
+SubClassOf(Annotation(oboInOwl:is_inferred "true") obo:CL_0000987 obo:CL_0000974)
 SubClassOf(obo:CL_0000987 ObjectSomeValuesFrom(obo:RO_0003000 obo:GO_0071746))
 
 # Class: obo:CL_0001065 (innate lymphoid cell)
@@ -3236,7 +3289,7 @@ SubClassOf(obo:GO_0001816 obo:GO_0008150)
 
 # Class: obo:GO_0001913 (T cell mediated cytotoxicity)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) Annotation(oboInOwl:hasDbXref "GOC:pr"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:0781735149"^^xsd:string) Annotation(oboInOwl:hasDbXref "PMID:11911826") obo:IAO_0000115 obo:GO_0001913 "The directed killing of a target cell by a T cell through the release of granules containing cytotoxic mediators or through the engagement of death receptors.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") Annotation(oboInOwl:hasDbXref "GOC:pr") Annotation(oboInOwl:hasDbXref "ISBN:0781735149") Annotation(oboInOwl:hasDbXref "PMID:11911826") obo:IAO_0000115 obo:GO_0001913 "The directed killing of a target cell by a T cell through the release of granules containing cytotoxic mediators or through the engagement of death receptors.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0001913 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0001913 "T cell mediated apoptosis")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0001913 "T cell mediated cell death")
@@ -3313,7 +3366,7 @@ SubClassOf(obo:GO_0002450 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0002450))
 
 # Class: obo:GO_0002456 (T cell mediated immunity)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) Annotation(oboInOwl:hasDbXref "GO_REF:0000022"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:0781735149"^^xsd:string) obo:IAO_0000115 obo:GO_0002456 "Any process involved in the carrying out of an immune response by a T cell.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") Annotation(oboInOwl:hasDbXref "GO_REF:0000022") Annotation(oboInOwl:hasDbXref "ISBN:0781735149") obo:IAO_0000115 obo:GO_0002456 "Any process involved in the carrying out of an immune response by a T cell.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0002456 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:hasBroadSynonym obo:GO_0002456 "cell-mediated immunity")
 AnnotationAssertion(oboInOwl:hasBroadSynonym obo:GO_0002456 "cellular immune response")
@@ -3334,7 +3387,7 @@ SubClassOf(obo:GO_0002457 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0002457))
 
 # Class: obo:GO_0002460 (adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) Annotation(oboInOwl:hasDbXref "GOC:mtg_sensu"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:0781735149"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:1405196831") obo:IAO_0000115 obo:GO_0002460 "An immune response mediated by lymphocytes expressing specific receptors for antigen produced through a somatic diversification process that includes somatic recombination of germline gene segments encoding immunoglobulin superfamily domains. Recombined receptors for antigen encoded by immunoglobulin superfamily domains include T cell receptors and immunoglobulins (antibodies) produced by B cells. The first encounter with antigen elicits a primary immune response that is slow and not of great magnitude. T and B cells selected by antigen become activated and undergo clonal expansion. A fraction of antigen-reactive T and B cells become memory cells, whereas others differentiate into effector cells. The memory cells generated during the primary response enable a much faster and stronger secondary immune response upon subsequent exposures to the same antigen (immunological memory). An example of this is the adaptive immune response found in Mus musculus.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") Annotation(oboInOwl:hasDbXref "GOC:mtg_sensu") Annotation(oboInOwl:hasDbXref "ISBN:0781735149") Annotation(oboInOwl:hasDbXref "ISBN:1405196831") obo:IAO_0000115 obo:GO_0002460 "An immune response mediated by lymphocytes expressing specific receptors for antigen produced through a somatic diversification process that includes somatic recombination of germline gene segments encoding immunoglobulin superfamily domains. Recombined receptors for antigen encoded by immunoglobulin superfamily domains include T cell receptors and immunoglobulins (antibodies) produced by B cells. The first encounter with antigen elicits a primary immune response that is slow and not of great magnitude. T and B cells selected by antigen become activated and undergo clonal expansion. A fraction of antigen-reactive T and B cells become memory cells, whereas others differentiate into effector cells. The memory cells generated during the primary response enable a much faster and stronger secondary immune response upon subsequent exposures to the same antigen (immunological memory). An example of this is the adaptive immune response found in Mus musculus.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0002460 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(rdfs:label obo:GO_0002460 "adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains")
 SubClassOf(obo:GO_0002460 obo:GO_0002250)
@@ -3359,6 +3412,27 @@ AnnotationAssertion(obo:IAO_0000115 obo:GO_0002472 "The process in which a macro
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0002472 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(rdfs:label obo:GO_0002472 "macrophage antigen processing and presentation")
 SubClassOf(obo:GO_0002472 obo:GO_0019882)
+
+# Class: obo:GO_0003674 (molecular_function)
+
+AnnotationAssertion(obo:IAO_0000115 obo:GO_0003674 "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs. These actions are described from two distinct but related perspectives: (1) biochemical activity, and (2) role as a component in a larger system/process.")
+AnnotationAssertion(obo:IAO_0000412 obo:GO_0003674 "http://purl.obolibrary.org/obo/go.owl")
+AnnotationAssertion(rdfs:label obo:GO_0003674 "molecular_function")
+SubClassOf(obo:GO_0003674 obo:BFO_0000015)
+
+# Class: obo:GO_0003823 (antigen binding)
+
+AnnotationAssertion(obo:IAO_0000115 obo:GO_0003823 "Interacting selectively and non-covalently with an antigen, any substance which is capable of inducing a specific immune response and of reacting with the products of that response, the specific antibody or specifically sensitized T-lymphocytes, or both. Binding may counteract the biological activity of the antigen.")
+AnnotationAssertion(obo:IAO_0000412 obo:GO_0003823 "http://purl.obolibrary.org/obo/go.owl")
+AnnotationAssertion(rdfs:label obo:GO_0003823 "antigen binding")
+SubClassOf(obo:GO_0003823 obo:GO_0005488)
+
+# Class: obo:GO_0005488 (binding)
+
+AnnotationAssertion(obo:IAO_0000115 obo:GO_0005488 "The selective, non-covalent, often stoichiometric, interaction of a molecule with one or more specific sites on another molecule.")
+AnnotationAssertion(obo:IAO_0000412 obo:GO_0005488 "http://purl.obolibrary.org/obo/go.owl")
+AnnotationAssertion(rdfs:label obo:GO_0005488 "binding")
+SubClassOf(obo:GO_0005488 obo:GO_0003674)
 
 # Class: obo:GO_0006909 (phagocytosis)
 
@@ -3428,6 +3502,16 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:GO_0016192 "vesicle trafficki
 AnnotationAssertion(rdfs:label obo:GO_0016192 "vesicle-mediated transport")
 SubClassOf(obo:GO_0016192 obo:GO_0009987)
 
+# Class: obo:GO_0016234 (inclusion body)
+
+AnnotationAssertion(obo:IAO_0000115 obo:GO_0016234 "A discrete intracellular part formed of aggregated molecules such as proteins or other biopolymers.")
+AnnotationAssertion(obo:IAO_0000412 obo:GO_0016234 "http://purl.obolibrary.org/obo/go.owl")
+AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:GO_0016234 "neuronal cytoplasmic inclusion")
+AnnotationAssertion(rdfs:comment obo:GO_0016234 "\"These are areas of the cell where virus components have accumulated. They are frequent sites of virus assembly, and some cellular inclusions consist of crystalline arrays of virus particles. It is not clear how these structures damage the cell, but they are frequently associated with viruses that cause cell lysis, such as herpesviruses and rabies virus.\" 
+Alan J. Cann, \"Principles of Molecular Virology: 6th Ed.\"")
+AnnotationAssertion(rdfs:label obo:GO_0016234 "inclusion body")
+SubClassOf(obo:GO_0016234 obo:GO_0110165)
+
 # Class: obo:GO_0019013 (viral nucleocapsid)
 
 AnnotationAssertion(obo:IAO_0000115 obo:GO_0019013 "The complete protein-nucleic acid complex that is the packaged form of the genome in a virus particle.")
@@ -3444,12 +3528,36 @@ AnnotationAssertion(rdfs:label obo:GO_0019028 "viral capsid"@en)
 SubClassOf(obo:GO_0019028 obo:CHEBI_33839)
 SubClassOf(obo:GO_0019028 ObjectSomeValuesFrom(obo:BFO_0000050 obo:VIDO_0000508))
 
+# Class: obo:GO_0019029 (helical viral capsid)
+
+AnnotationAssertion(obo:IAO_0000115 obo:GO_0019029 "Viral capsid whose subunits are arranged to form a protein helix with the genetic material contained within.")
+AnnotationAssertion(obo:IAO_0000412 obo:GO_0019029 "http://purl.obolibrary.org/obo/go.owl")
+AnnotationAssertion(rdfs:label obo:GO_0019029 "helical viral capsid")
+SubClassOf(obo:GO_0019029 obo:GO_0019028)
+
+# Class: obo:GO_0019030 (icosahedral viral capsid)
+
+AnnotationAssertion(obo:IAO_0000115 obo:GO_0019030 "Viral capsid whose the subunits are arranged to form an icosahedron, a solid with 20 faces and 12 vertices.")
+AnnotationAssertion(obo:IAO_0000412 obo:GO_0019030 "http://purl.obolibrary.org/obo/go.owl")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0019030 "quasispherical viral capsid")
+AnnotationAssertion(rdfs:label obo:GO_0019030 "icosahedral viral capsid")
+SubClassOf(obo:GO_0019030 obo:GO_0019028)
+
 # Class: obo:GO_0019031 (viral envelope)
 
 AnnotationAssertion(obo:IAO_0000115 obo:GO_0019031 "Macromolecule lipid bilayer of a virion surrounding capsid.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0019031 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(rdfs:label obo:GO_0019031 "viral envelope"@en)
 SubClassOf(obo:GO_0019031 obo:CHEBI_33839)
+
+# Class: obo:GO_0019042 (viral latency process)
+
+AnnotationAssertion(obo:IAO_0000115 obo:GO_0019042 "Latency process involving a virus, during which the virus lies dormant within host cells, and ending when the virus starts to replicate.")
+AnnotationAssertion(obo:IAO_0000117 obo:GO_0019042 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000412 obo:GO_0019042 "http://purl.obolibrary.org/obo/go.owl")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0019042 "phage lysogeny")
+AnnotationAssertion(rdfs:label obo:GO_0019042 "viral latency process")
+SubClassOf(obo:GO_0019042 obo:IDO_0001385)
 
 # Class: obo:GO_0019061 (virus uncoating stage)
 
@@ -3507,7 +3615,7 @@ SubClassOf(obo:GO_0019083 ObjectSomeValuesFrom(obo:BFO_0000062 obo:GO_0019081))
 
 # Class: obo:GO_0019724 (B cell mediated immunity)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) Annotation(oboInOwl:hasDbXref "GO_REF:0000022"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:0781735149"^^xsd:string) obo:IAO_0000115 obo:GO_0019724 "Any process involved with the carrying out of an immune response by a B cell, through, for instance, the production of antibodies or cytokines, or antigen presentation to T cells.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") Annotation(oboInOwl:hasDbXref "GO_REF:0000022") Annotation(oboInOwl:hasDbXref "ISBN:0781735149") obo:IAO_0000115 obo:GO_0019724 "Any process involved with the carrying out of an immune response by a B cell, through, for instance, the production of antibodies or cytokines, or antigen presentation to T cells.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0019724 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0019724 "B lymphocyte mediated immune effector process")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0019724 "B lymphocyte mediated immunity")
@@ -3574,7 +3682,7 @@ SubClassOf(obo:GO_0032609 obo:GO_0001816)
 
 # Class: obo:GO_0032612 (interleukin-1 production)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah"^^xsd:string) obo:IAO_0000115 obo:GO_0032612 "The appearance of interleukin-1 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah") obo:IAO_0000115 obo:GO_0032612 "The appearance of interleukin-1 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0032612 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0032612 "IL-1 production")
 AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:GO_0032612 "interleukin-1 biosynthetic process")
@@ -3584,7 +3692,7 @@ SubClassOf(obo:GO_0032612 obo:GO_0001816)
 
 # Class: obo:GO_0032613 (interleukin-10 production)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah"^^xsd:string) obo:IAO_0000115 obo:GO_0032613 "The appearance of interleukin-10 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah") obo:IAO_0000115 obo:GO_0032613 "The appearance of interleukin-10 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0032613 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0032613 "IL-10 production")
 AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:GO_0032613 "interleukin-10 biosynthetic process")
@@ -3612,7 +3720,7 @@ SubClassOf(obo:GO_0032615 obo:GO_0001816)
 
 # Class: obo:GO_0032616 (interleukin-13 production)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah"^^xsd:string) obo:IAO_0000115 obo:GO_0032616 "The appearance of interleukin-13 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah") obo:IAO_0000115 obo:GO_0032616 "The appearance of interleukin-13 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0032616 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0032616 "IL-13 production")
 AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:GO_0032616 "interleukin-13 biosynthetic process")
@@ -3649,10 +3757,10 @@ SubClassOf(obo:GO_0032619 obo:GO_0001816)
 
 # Class: obo:GO_0032620 (interleukin-17 production)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah"^^xsd:string) Annotation(oboInOwl:hasDbXref "GOC:rv"^^xsd:string) Annotation(oboInOwl:hasDbXref "Wikipedia:Interleukin_17") obo:IAO_0000115 obo:GO_0032620 "The appearance of any member of the interleukin-17 family of cytokines due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah") Annotation(oboInOwl:hasDbXref "GOC:rv") Annotation(oboInOwl:hasDbXref "Wikipedia:Interleukin_17") obo:IAO_0000115 obo:GO_0032620 "The appearance of any member of the interleukin-17 family of cytokines due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0032620 "http://purl.obolibrary.org/obo/go.owl")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:BHF"^^xsd:string) oboInOwl:hasExactSynonym obo:GO_0032620 "CTLA-8 production")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:BHF"^^xsd:string) oboInOwl:hasExactSynonym obo:GO_0032620 "Cytotoxic T-lymphocyte-associated antigen 8 production")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:BHF") oboInOwl:hasExactSynonym obo:GO_0032620 "CTLA-8 production")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:BHF") oboInOwl:hasExactSynonym obo:GO_0032620 "Cytotoxic T-lymphocyte-associated antigen 8 production")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0032620 "IL-17 production")
 AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:GO_0032620 "interleukin-17 biosynthetic process")
 AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:GO_0032620 "interleukin-17 secretion")
@@ -3661,7 +3769,7 @@ SubClassOf(obo:GO_0032620 obo:GO_0001816)
 
 # Class: obo:GO_0032623 (interleukin-2 production)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah"^^xsd:string) obo:IAO_0000115 obo:GO_0032623 "The appearance of interleukin-2 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah") obo:IAO_0000115 obo:GO_0032623 "The appearance of interleukin-2 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0032623 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0032623 "IL-2 production")
 AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:GO_0032623 "interleukin-2 biosynthetic process")
@@ -3680,7 +3788,7 @@ SubClassOf(obo:GO_0032632 obo:GO_0001816)
 
 # Class: obo:GO_0032633 (interleukin-4 production)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah"^^xsd:string) obo:IAO_0000115 obo:GO_0032633 "The appearance of interleukin-4 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah") obo:IAO_0000115 obo:GO_0032633 "The appearance of interleukin-4 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0032633 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0032633 "IL-4 production")
 AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:GO_0032633 "interleukin-4 biosynthetic process")
@@ -3690,7 +3798,7 @@ SubClassOf(obo:GO_0032633 obo:GO_0001816)
 
 # Class: obo:GO_0032634 (interleukin-5 production)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah"^^xsd:string) obo:IAO_0000115 obo:GO_0032634 "The appearance of interleukin-5 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah") obo:IAO_0000115 obo:GO_0032634 "The appearance of interleukin-5 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0032634 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0032634 "IL-5 production")
 AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:GO_0032634 "interleukin-5 biosynthetic process")
@@ -3700,7 +3808,7 @@ SubClassOf(obo:GO_0032634 obo:GO_0001816)
 
 # Class: obo:GO_0032635 (interleukin-6 production)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah"^^xsd:string) obo:IAO_0000115 obo:GO_0032635 "The appearance of interleukin-6 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah") obo:IAO_0000115 obo:GO_0032635 "The appearance of interleukin-6 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0032635 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0032635 "IL-6 production")
 AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:GO_0032635 "interleukin-6 biosynthetic process")
@@ -3710,7 +3818,7 @@ SubClassOf(obo:GO_0032635 obo:GO_0001816)
 
 # Class: obo:GO_0032637 (interleukin-8 production)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah"^^xsd:string) obo:IAO_0000115 obo:GO_0032637 "The appearance of interleukin-8 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah") obo:IAO_0000115 obo:GO_0032637 "The appearance of interleukin-8 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0032637 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0032637 "IL-8 production")
 AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:GO_0032637 "interleukin-8 biosynthetic process")
@@ -3720,7 +3828,7 @@ SubClassOf(obo:GO_0032637 obo:GO_0001816)
 
 # Class: obo:GO_0032638 (interleukin-9 production)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah"^^xsd:string) obo:IAO_0000115 obo:GO_0032638 "The appearance of interleukin-9 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:mah") obo:IAO_0000115 obo:GO_0032638 "The appearance of interleukin-9 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0032638 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0032638 "IL-9 production")
 AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:GO_0032638 "interleukin-9 biosynthetic process")
@@ -3735,6 +3843,14 @@ AnnotationAssertion(obo:IAO_0000412 obo:GO_0032991 obo:go.owl)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0032991 "macromolecular complex")
 AnnotationAssertion(rdfs:label obo:GO_0032991 "protein-containing complex"^^xsd:string)
 SubClassOf(obo:GO_0032991 obo:BFO_0000040)
+
+# Class: obo:GO_0038197 (type I interferon receptor complex)
+
+AnnotationAssertion(obo:IAO_0000115 obo:GO_0038197 "A heterodimeric protein complex that binds a type I interferon and transmits the signal across the membrane into the cell. Consists of an alpha subunit (IFNAR1) and a beta subunit (IFNAR2).")
+AnnotationAssertion(obo:IAO_0000412 obo:GO_0038197 "http://purl.obolibrary.org/obo/go.owl")
+AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:GO_0038197 "interferon-alpha/beta receptor complex")
+AnnotationAssertion(rdfs:label obo:GO_0038197 "type I interferon receptor complex")
+SubClassOf(obo:GO_0038197 obo:GO_0032991)
 
 # Class: obo:GO_0039713 (viral factory)
 
@@ -3832,9 +3948,10 @@ SubClassOf(obo:GO_0044406 obo:GO_0008150)
 
 # Class: obo:GO_0044409 (entry into host)
 
-AnnotationAssertion(obo:IAO_0000115 obo:GO_0044409 "Penetration by an organism into the body, tissues, or cells of the host organism."^^xsd:string)
+AnnotationAssertion(obo:IAO_0000115 obo:GO_0044409 "Penetration by an organism, or acellular structure, into the body, tissues, or cells of the host organism."^^xsd:string)
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0044409 obo:go.owl)
 AnnotationAssertion(rdfs:label obo:GO_0044409 "entry into host"^^xsd:string)
+EquivalentClasses(obo:GO_0044409 ObjectSomeValuesFrom(obo:BFO_0000055 obo:IDO_0000438))
 SubClassOf(obo:GO_0044409 obo:GO_0008150)
 
 # Class: obo:GO_0045087 (innate immune response)
@@ -3851,6 +3968,7 @@ AnnotationAssertion(obo:IAO_0000412 obo:GO_0046718 "http://purl.obolibrary.org/o
 AnnotationAssertion(rdfs:label obo:GO_0046718 "virus penetration stage"@en)
 SubClassOf(obo:GO_0046718 obo:VIDO_0001114)
 SubClassOf(obo:GO_0046718 ObjectSomeValuesFrom(obo:BFO_0000050 obo:VIDO_0001016))
+SubClassOf(obo:GO_0046718 ObjectSomeValuesFrom(obo:BFO_0000055 obo:IDO_0000438))
 SubClassOf(obo:GO_0046718 ObjectSomeValuesFrom(obo:BFO_0000062 obo:GO_0019062))
 
 # Class: obo:GO_0046727 (capsomere)
@@ -3916,64 +4034,64 @@ SubClassOf(obo:GO_0065007 obo:BFO_0000015)
 
 # Class: obo:GO_0071736 (IgG immunoglobulin complex, circulating)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:0781765196") obo:IAO_0000115 obo:GO_0071736 "A protein complex composed of two identical immunoglobulin heavy chains of an IgG isotype and two identical immunoglobulin light chains, held together by disulfide bonds, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") Annotation(oboInOwl:hasDbXref "ISBN:0781765196") obo:IAO_0000115 obo:GO_0071736 "A protein complex composed of two identical immunoglobulin heavy chains of an IgG isotype and two identical immunoglobulin light chains, held together by disulfide bonds, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0071736 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:created_by obo:GO_0071736 "mah")
 AnnotationAssertion(oboInOwl:creation_date obo:GO_0071736 "2010-03-24T01:44:53Z")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG antibody")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG1 antibody")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG2 antibody")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG2a antibody")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG2b antibody")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG2c antibody")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG3 antibody")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG4 antibody")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG antibody")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG1 antibody")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG2 antibody")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG2a antibody")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG2b antibody")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG2c antibody")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG3 antibody")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") oboInOwl:hasNarrowSynonym obo:GO_0071736 "IgG4 antibody")
 AnnotationAssertion(rdfs:comment obo:GO_0071736 "Note that an IgG immunoglobulin complex has the function of antigen binding if a suitable antigen is available. Also, IgG isotypes vary by species.")
 AnnotationAssertion(rdfs:label obo:GO_0071736 "IgG immunoglobulin complex, circulating")
 SubClassOf(obo:GO_0071736 obo:GO_0042571)
 
 # Class: obo:GO_0071739 (IgD immunoglobulin complex, circulating)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:0781765196") Annotation(oboInOwl:hasDbXref "PMID:11282392") obo:IAO_0000115 obo:GO_0071739 "A protein complex composed of two identical immunoglobulin heavy chains of the IgD isotype and two identical immunoglobulin light chains, held together by disulfide bonds, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") Annotation(oboInOwl:hasDbXref "ISBN:0781765196") Annotation(oboInOwl:hasDbXref "PMID:11282392") obo:IAO_0000115 obo:GO_0071739 "A protein complex composed of two identical immunoglobulin heavy chains of the IgD isotype and two identical immunoglobulin light chains, held together by disulfide bonds, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0071739 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:created_by obo:GO_0071739 "mah")
 AnnotationAssertion(oboInOwl:creation_date obo:GO_0071739 "2010-03-24T01:44:53Z")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) oboInOwl:hasExactSynonym obo:GO_0071739 "IgD antibody")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") oboInOwl:hasExactSynonym obo:GO_0071739 "IgD antibody")
 AnnotationAssertion(rdfs:comment obo:GO_0071739 "Note that an IgD immunoglobulin complex has the function of antigen binding if a suitable antigen is available.")
 AnnotationAssertion(rdfs:label obo:GO_0071739 "IgD immunoglobulin complex, circulating")
 SubClassOf(obo:GO_0071739 obo:GO_0042571)
 
 # Class: obo:GO_0071743 (IgE immunoglobulin complex, circulating)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:0781765196") obo:IAO_0000115 obo:GO_0071743 "A protein complex composed of two identical immunoglobulin heavy chains of the IgE isotype and two identical immunoglobulin light chains, held together by disulfide bonds, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") Annotation(oboInOwl:hasDbXref "ISBN:0781765196") obo:IAO_0000115 obo:GO_0071743 "A protein complex composed of two identical immunoglobulin heavy chains of the IgE isotype and two identical immunoglobulin light chains, held together by disulfide bonds, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0071743 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:created_by obo:GO_0071743 "mah")
 AnnotationAssertion(oboInOwl:creation_date obo:GO_0071743 "2010-03-24T01:44:53Z")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) oboInOwl:hasExactSynonym obo:GO_0071743 "IgE antibody")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") oboInOwl:hasExactSynonym obo:GO_0071743 "IgE antibody")
 AnnotationAssertion(rdfs:comment obo:GO_0071743 "Note that an IgE immunoglobulin complex has the function of antigen binding if a suitable antigen is available.")
 AnnotationAssertion(rdfs:label obo:GO_0071743 "IgE immunoglobulin complex, circulating")
 SubClassOf(obo:GO_0071743 obo:GO_0042571)
 
 # Class: obo:GO_0071746 (IgA immunoglobulin complex, circulating)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:0781765196") Annotation(oboInOwl:hasDbXref "PMID:16362985") obo:IAO_0000115 obo:GO_0071746 "A protein complex composed of two identical immunoglobulin heavy chains of an IgA isotype and two identical immunoglobulin light chains, held together by disulfide bonds, sometimes complexed with J chain or J chain and secretory component, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") Annotation(oboInOwl:hasDbXref "ISBN:0781765196") Annotation(oboInOwl:hasDbXref "PMID:16362985") obo:IAO_0000115 obo:GO_0071746 "A protein complex composed of two identical immunoglobulin heavy chains of an IgA isotype and two identical immunoglobulin light chains, held together by disulfide bonds, sometimes complexed with J chain or J chain and secretory component, and present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0071746 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:created_by obo:GO_0071746 "mah")
 AnnotationAssertion(oboInOwl:creation_date obo:GO_0071746 "2010-03-24T01:44:53Z")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) oboInOwl:hasExactSynonym obo:GO_0071746 "IgA antibody")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) oboInOwl:hasNarrowSynonym obo:GO_0071746 "IgA1 antibody")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) oboInOwl:hasNarrowSynonym obo:GO_0071746 "IgA2 antibody")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") oboInOwl:hasExactSynonym obo:GO_0071746 "IgA antibody")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") oboInOwl:hasNarrowSynonym obo:GO_0071746 "IgA1 antibody")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") oboInOwl:hasNarrowSynonym obo:GO_0071746 "IgA2 antibody")
 AnnotationAssertion(rdfs:comment obo:GO_0071746 "Note that an IgA immunoglobulin complex has the function of antigen binding if a suitable antigen is available.")
 AnnotationAssertion(rdfs:label obo:GO_0071746 "IgA immunoglobulin complex, circulating")
 SubClassOf(obo:GO_0071746 obo:GO_0042571)
 
 # Class: obo:GO_0071754 (IgM immunoglobulin complex, circulating)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) Annotation(oboInOwl:hasDbXref "ISBN:0781765196") Annotation(oboInOwl:hasDbXref "PMID:20176268") obo:IAO_0000115 obo:GO_0071754 "A polymer of five or six IgM core units each composed of two identical immunoglobulin heavy chains of the IgM isotype and two identical immunoglobulin light chains, held together by disulfide bonds; the individual IgM core units are held together via disulfide bonds with a single J chain polypeptide acting as a bridge between two of the polymeric units. Circulating IgM is present in the extracellular space, in mucosal areas or other tissues, or in the blood or lymph.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") Annotation(oboInOwl:hasDbXref "ISBN:0781765196") Annotation(oboInOwl:hasDbXref "PMID:20176268") obo:IAO_0000115 obo:GO_0071754 "A polymer of five or six IgM core units each composed of two identical immunoglobulin heavy chains of the IgM isotype and two identical immunoglobulin light chains, held together by disulfide bonds; the individual IgM core units are held together via disulfide bonds with a single J chain polypeptide acting as a bridge between two of the polymeric units. Circulating IgM is present in the extracellular space, in mucosal areas or other tissues, or in the blood or lymph.")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0071754 "http://purl.obolibrary.org/obo/go.owl")
 AnnotationAssertion(oboInOwl:created_by obo:GO_0071754 "mah")
 AnnotationAssertion(oboInOwl:creation_date obo:GO_0071754 "2010-03-24T01:44:53Z")
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add"^^xsd:string) oboInOwl:hasExactSynonym obo:GO_0071754 "IgM antibody")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:add") oboInOwl:hasExactSynonym obo:GO_0071754 "IgM antibody")
 AnnotationAssertion(rdfs:comment obo:GO_0071754 "Note that an IgM immunoglobulin complex has the function of antigen binding if a suitable antigen is available.")
 AnnotationAssertion(rdfs:label obo:GO_0071754 "IgM immunoglobulin complex, circulating")
 SubClassOf(obo:GO_0071754 obo:GO_0042571)
@@ -6774,7 +6892,6 @@ AnnotationAssertion(obo:IAO_0000412 obo:IDO_0001385 "http://purl.obolibrary.org/
 AnnotationAssertion(rdfs:label obo:IDO_0001385 "latency process")
 SubClassOf(obo:IDO_0001385 obo:BFO_0000015)
 SubClassOf(obo:IDO_0001385 ObjectSomeValuesFrom(obo:BFO_0000050 obo:IDO_0001384))
-SubClassOf(obo:IDO_0001385 ObjectSomeValuesFrom(obo:BFO_0000051 obo:VIDO_0001392))
 SubClassOf(obo:IDO_0001385 ObjectSomeValuesFrom(obo:BFO_999999 obo:IDO_0001343))
 
 # Class: obo:IDO_0001386 (infectious disease incidence profile)
@@ -6926,12 +7043,38 @@ AnnotationAssertion(oboInOwl:term_editor obo:NCBITaxon_11118 "John Beverley"^^xs
 AnnotationAssertion(rdfs:label obo:NCBITaxon_11118 "coronavirus"@en)
 SubClassOf(obo:NCBITaxon_11118 obo:NCBITaxon_35278)
 
+# Class: obo:NCBITaxon_1250315 (virusoid)
+
+AnnotationAssertion(obo:IAO_0000115 obo:NCBITaxon_1250315 "Satellite consisting of circular, single-stranded RNA, which uses the capsid of a helper virus to encapsidate its own genome.")
+AnnotationAssertion(obo:IAO_0000116 obo:NCBITaxon_1250315 "'encapsidation' refers to the enclosure of viral nucleic acid within a capsid. This term is not currently present in any existing ontology.")
+AnnotationAssertion(obo:IAO_0000116 obo:NCBITaxon_1250315 "In NCBITaxon this class has the label 'RNA satellite'.")
+AnnotationAssertion(obo:IAO_0000117 obo:NCBITaxon_1250315 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000118 obo:NCBITaxon_1250315 "RNA satellite")
+AnnotationAssertion(rdfs:label obo:NCBITaxon_1250315 "virusoid")
+SubClassOf(obo:NCBITaxon_1250315 obo:NCBITaxon_12877)
+
+# Class: obo:NCBITaxon_12877 (satellite)
+
+AnnotationAssertion(obo:IAO_0000115 obo:NCBITaxon_12877 "Acellecullar structure consisting of either DNA or RNA, which depends upon the presence of a helper virus to replicate its genome.")
+AnnotationAssertion(obo:IAO_0000117 obo:NCBITaxon_12877 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000412 obo:NCBITaxon_12877 "http://purl.obolibrary.org/obo/ncbitaxon.owl")
+AnnotationAssertion(rdfs:label obo:NCBITaxon_12877 "satellite")
+SubClassOf(obo:NCBITaxon_12877 obo:IDO_0001088)
+
 # Class: obo:NCBITaxon_1335626 (MERS-CoV)
 
 AnnotationAssertion(obo:IAO_0000412 obo:NCBITaxon_1335626 obo:ncbitaxon.owl)
 AnnotationAssertion(oboInOwl:term_editor obo:NCBITaxon_1335626 "John Beverley"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:NCBITaxon_1335626 "MERS-CoV"@en)
 SubClassOf(obo:NCBITaxon_1335626 obo:NCBITaxon_11118)
+
+# Class: obo:NCBITaxon_198600 (satellite virus)
+
+AnnotationAssertion(obo:IAO_0000115 obo:NCBITaxon_198600 "Satellite consisting of RNA which encodes its own protein capsid, with the aid of a helper virus.")
+AnnotationAssertion(obo:IAO_0000117 obo:NCBITaxon_198600 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000412 obo:NCBITaxon_198600 "http://purl.obolibrary.org/obo/ncbitaxon.owl")
+AnnotationAssertion(rdfs:label obo:NCBITaxon_198600 "satellite virus")
+SubClassOf(obo:NCBITaxon_198600 obo:NCBITaxon_12877)
 
 # Class: obo:NCBITaxon_2 (bacteria)
 
@@ -6955,6 +7098,16 @@ AnnotationAssertion(obo:IAO_0000412 obo:NCBITaxon_227859 obo:ncbitaxon.owl)
 AnnotationAssertion(oboInOwl:term_editor obo:NCBITaxon_227859 "John Beverley"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:NCBITaxon_227859 "SARS-CoV-2"@en)
 SubClassOf(obo:NCBITaxon_227859 obo:NCBITaxon_11118)
+
+# Class: obo:NCBITaxon_265963 (viroid)
+
+AnnotationAssertion(obo:IAO_0000115 obo:NCBITaxon_265963 "Acellular structure consisting of rod-like, uncoated, non-enveloped, single-stranded RNA, which depends upon host cell RNA polymerase for replication.")
+AnnotationAssertion(obo:IAO_0000117 obo:NCBITaxon_265963 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000412 obo:NCBITaxon_265963 "http://purl.obolibrary.org/obo/ncbitaxon.owl")
+AnnotationAssertion(rdfs:comment obo:NCBITaxon_265963 "Viroids are plant pathogens.")
+AnnotationAssertion(rdfs:label obo:NCBITaxon_265963 "viroid")
+SubClassOf(obo:NCBITaxon_265963 obo:IDO_0001088)
+SubClassOf(obo:NCBITaxon_265963 ObjectSomeValuesFrom(obo:RO_0000091 <http://purl.obolibrary.org/obo/ido.owl/IDO_0001157>))
 
 # Class: obo:NCBITaxon_2731342 (single-stranded DNA virus)
 
@@ -7481,6 +7634,15 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:PR_000001092 "fam:IL-17; IL17")
 AnnotationAssertion(rdfs:label obo:PR_000001092 "interleukin-17")
 SubClassOf(obo:PR_000001092 obo:NCIT_C20464)
 
+# Class: obo:PR_000001096 (Toll-like receptor)
+
+AnnotationAssertion(obo:IAO_0000115 obo:PR_000001096 "A protein with a core domain composition consisting of a signal peptide, an extracellular domain with multiple Leucine rich repeat (Pfam:PF13855) domain (LRR), a cysteine-rich region, a single-pass transmembrane domain and a C-terminal cytoplasmic tail containing a TIR domain (Pfam:PF01582).")
+AnnotationAssertion(obo:IAO_0000412 obo:PR_000001096 "http://purl.obolibrary.org/obo/pr.owl")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:PR_000001096 "fam:TLR")
+AnnotationAssertion(rdfs:comment obo:PR_000001096 "Category=family.")
+AnnotationAssertion(rdfs:label obo:PR_000001096 "Toll-like receptor")
+SubClassOf(obo:PR_000001096 obo:PR_000000001)
+
 # Class: obo:PR_000001317 (interleukin-7)
 
 AnnotationAssertion(obo:IAO_0000115 obo:PR_000001317 "A protein that is a translation product of the human IL7 gene or a 1:1 ortholog thereof.")
@@ -7488,6 +7650,21 @@ AnnotationAssertion(obo:IAO_0000412 obo:PR_000001317 "http://purl.obolibrary.org
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:PR_000001317 "IL-7; IL7")
 AnnotationAssertion(rdfs:label obo:PR_000001317 "interleukin-7")
 SubClassOf(obo:PR_000001317 obo:NCIT_C20464)
+
+# Class: obo:PR_000001335 (class 2 cytokine, IL-10 type)
+
+AnnotationAssertion(obo:IAO_0000115 obo:PR_000001335 "A protein with a core domain architecture consisting of an N-terminal Interleukin 10 (Pfam:PF00726) domain.")
+AnnotationAssertion(obo:IAO_0000412 obo:PR_000001335 "http://purl.obolibrary.org/obo/pr.owl")
+AnnotationAssertion(rdfs:label obo:PR_000001335 "class 2 cytokine, IL-10 type")
+SubClassOf(obo:PR_000001335 obo:NCIT_C20464)
+
+# Class: obo:PR_000001362 (interferon lambda)
+
+AnnotationAssertion(obo:IAO_0000115 obo:PR_000001362 "A type III interferon that is distantly related to type I interferons (IFNs) and the interleukin-10 family. It comprises the translation product of the IL28A, IL28B and IL29 genes. Generally induced by viral infection and exert their antiviral and immunomodulatory activities through a unique receptor complex composed of IFN-lambdaR1 and interleukin 10 receptor 2.")
+AnnotationAssertion(obo:IAO_0000412 obo:PR_000001362 "http://purl.obolibrary.org/obo/pr.owl")
+AnnotationAssertion(rdfs:comment obo:PR_000001362 "Note: Some references consider 'lambda' and 'type III' to be synonyms. This is likely because lambda is the only type III interferon identified. However, the classification criteria for each nomenclature system differ.")
+AnnotationAssertion(rdfs:label obo:PR_000001362 "interferon lambda")
+SubClassOf(obo:PR_000001362 obo:PR_000028205)
 
 # Class: obo:PR_000001366 (interleukin-11)
 
@@ -7654,6 +7831,14 @@ AnnotationAssertion(rdfs:comment obo:PR_000025848 "Category=Family")
 AnnotationAssertion(rdfs:label obo:PR_000025848 "type I interferon")
 SubClassOf(obo:PR_000025848 obo:NCIT_C20464)
 SubClassOf(obo:PR_000025848 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_0000091 ObjectIntersectionOf(obo:IDO_0001091 ObjectAllValuesFrom(obo:BFO_0000054 ObjectSomeValuesFrom(obo:RO_0002212 obo:GO_0032502)))) ObjectSomeValuesFrom(obo:RO_0000091 ObjectIntersectionOf(obo:VIDO_0001024 ObjectAllValuesFrom(obo:BFO_0000054 ObjectSomeValuesFrom(obo:RO_0002212 obo:VIDO_0001016))))))
+
+# Class: obo:PR_000028205 (type III interferon)
+
+AnnotationAssertion(obo:IAO_0000115 obo:PR_000028205 "A class 2 cytokine, IL-10 type that binds to a specific cell surface receptor complex known as the IFN type III receptor, a heterodimer consisting of IFNLR1 and IL-10R2.")
+AnnotationAssertion(obo:IAO_0000412 obo:PR_000028205 "http://purl.obolibrary.org/obo/pr.owl")
+AnnotationAssertion(rdfs:comment obo:PR_000028205 "Note: Some references consider 'lambda' and 'type III' to be synonyms. This is likely because lambda is the only type III interferon identified. However, the classification criteria for each nomenclature system differ.")
+AnnotationAssertion(rdfs:label obo:PR_000028205 "type III interferon")
+SubClassOf(obo:PR_000028205 obo:PR_000001335)
 
 # Class: obo:PR_000036197 (viral protein)
 
@@ -7862,6 +8047,107 @@ AnnotationAssertion(obo:IAO_0000119 obo:RO_0002577 "http://www.jbiomedsem.com/co
 AnnotationAssertion(obo:IAO_0000412 obo:RO_0002577 "http://purl.obolibrary.org/obo/ro.owl")
 AnnotationAssertion(rdfs:label obo:RO_0002577 "system")
 SubClassOf(obo:RO_0002577 obo:BFO_0000040)
+
+# Class: obo:SO_0000001 (region)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SO_0000001 "A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.")
+AnnotationAssertion(obo:IAO_0000412 obo:SO_0000001 "http://purl.obolibrary.org/obo/so.owl")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SO_0000001 "sequence")
+AnnotationAssertion(rdfs:label obo:SO_0000001 "region")
+SubClassOf(obo:SO_0000001 obo:SO_0000110)
+
+# Class: obo:SO_0000110 (sequence_feature)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SO_0000110 "Any extent of continuous biological sequence.")
+AnnotationAssertion(obo:IAO_0000412 obo:SO_0000110 "http://purl.obolibrary.org/obo/so.owl")
+AnnotationAssertion(rdfs:label obo:SO_0000110 "sequence_feature")
+SubClassOf(obo:SO_0000110 obo:BFO_0000031)
+
+# Class: obo:SO_0001026 (genome)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SO_0001026 "A genome is the sum of genetic material within a cell or virion.")
+AnnotationAssertion(obo:IAO_0000116 obo:SO_0001026 "This definition raises questions. Note that the developers of SO have classified genomes as generically dependent continuants. What does 'genetic material' denote here? If it denotes the sum of all the nucleic adics within a cell or virion, then given that 'nucleic acid' is classified as a material entity, this implies that a genome is a material entity (an object aggregate of nucliec acids). Of course, both material entity and information entity conceptions of genomes are regularly used in the literature. -SB")
+AnnotationAssertion(obo:IAO_0000412 obo:SO_0001026 "http://purl.obolibrary.org/obo/so.owl")
+AnnotationAssertion(rdfs:label obo:SO_0001026 "genome")
+SubClassOf(obo:SO_0001026 obo:SO_0001260)
+SubClassOf(obo:SO_0001026 ObjectSomeValuesFrom(obo:BFO_0000051 obo:SO_0001235))
+
+# Class: obo:SO_0001041 (viral_sequence)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SO_0001041 "Region of nucleotide sequence of a virus.")
+AnnotationAssertion(obo:IAO_0000412 obo:SO_0001041 "http://purl.obolibrary.org/obo/so.owl")
+AnnotationAssertion(rdfs:label obo:SO_0001041 "viral_sequence")
+SubClassOf(obo:SO_0001041 obo:SO_0001235)
+
+# Class: obo:SO_0001042 (phage sequence)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SO_0001042 "Nucleotide sequence of a virus that infects bacteria.")
+AnnotationAssertion(obo:IAO_0000412 obo:SO_0001042 "http://purl.obolibrary.org/obo/so.owl")
+AnnotationAssertion(rdfs:label obo:SO_0001042 "phage sequence")
+SubClassOf(obo:SO_0001042 obo:SO_0001041)
+
+# Class: obo:SO_0001169 (ds_RNA_viral_sequence)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SO_0001169 "Viral_sequence of a double-stranded RNA virus.")
+AnnotationAssertion(obo:IAO_0000412 obo:SO_0001169 "http://purl.obolibrary.org/obo/so.owl")
+AnnotationAssertion(rdfs:label obo:SO_0001169 "ds_RNA_viral_sequence")
+SubClassOf(obo:SO_0001169 obo:SO_0001041)
+
+# Class: obo:SO_0001198 (ds_DNA_viral_sequence)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SO_0001198 "Viral_sequence of a double-stranded DNA virus.")
+AnnotationAssertion(obo:IAO_0000412 obo:SO_0001198 "http://purl.obolibrary.org/obo/so.owl")
+AnnotationAssertion(rdfs:label obo:SO_0001198 "ds_DNA_viral_sequence")
+SubClassOf(obo:SO_0001198 obo:SO_0001041)
+
+# Class: obo:SO_0001199 (ss_RNA_viral_sequence)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SO_0001199 "Viral_sequence of a single-stranded RNA virus.")
+AnnotationAssertion(obo:IAO_0000412 obo:SO_0001199 "http://purl.obolibrary.org/obo/so.owl")
+AnnotationAssertion(rdfs:label obo:SO_0001199 "ss_RNA_viral_sequence")
+SubClassOf(obo:SO_0001199 obo:SO_0001041)
+
+# Class: obo:SO_0001200 (negative_sense_ssRNA_viral_sequence)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SO_0001200 "ss_RNA_viral_sequence of a single stranded RNA virus that is complementary to mRNA and must be converted to positive sense RNA by RNA polymerase before translation.")
+AnnotationAssertion(obo:IAO_0000412 obo:SO_0001200 "http://purl.obolibrary.org/obo/so.owl")
+AnnotationAssertion(rdfs:label obo:SO_0001200 "negative_sense_ssRNA_viral_sequence")
+SubClassOf(obo:SO_0001200 obo:SO_0001199)
+
+# Class: obo:SO_0001201 (positive_sense_ssRNA_viral_sequence)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SO_0001201 "ss_RNA_viral_sequence of a single stranded RNA virus that can be immediately translated by the host.")
+AnnotationAssertion(obo:IAO_0000412 obo:SO_0001201 "http://purl.obolibrary.org/obo/so.owl")
+AnnotationAssertion(rdfs:label obo:SO_0001201 "positive_sense_ssRNA_viral_sequence")
+SubClassOf(obo:SO_0001201 obo:SO_0001199)
+
+# Class: obo:SO_0001202 (ambisense_ssRNA_viral_sequence)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SO_0001202 "ss_RNA_viral_sequence of a single stranded RNA virus with both messenger and anti messenger polarity.")
+AnnotationAssertion(obo:IAO_0000412 obo:SO_0001202 "http://purl.obolibrary.org/obo/so.owl")
+AnnotationAssertion(rdfs:label obo:SO_0001202 "ambisense_ssRNA_viral_sequence")
+SubClassOf(obo:SO_0001202 obo:SO_0001199)
+
+# Class: obo:SO_0001235 (replicon)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SO_0001235 "Region containing at least one unique origin of replication and a unique termination site.")
+AnnotationAssertion(obo:IAO_0000412 obo:SO_0001235 "http://purl.obolibrary.org/obo/so.owl")
+AnnotationAssertion(rdfs:label obo:SO_0001235 "replicon")
+SubClassOf(obo:SO_0001235 obo:SO_0001411)
+
+# Class: obo:SO_0001260 (sequence_collection)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SO_0001260 "A collection of discontinuous sequences.")
+AnnotationAssertion(obo:IAO_0000412 obo:SO_0001260 "http://purl.obolibrary.org/obo/so.owl")
+AnnotationAssertion(rdfs:label obo:SO_0001260 "sequence_collection")
+SubClassOf(obo:SO_0001260 obo:BFO_0000031)
+
+# Class: obo:SO_0001411 (biological region)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SO_0001411 "Region defined by its disposition to be involved in a biological process.")
+AnnotationAssertion(obo:IAO_0000412 obo:SO_0001411 "http://purl.obolibrary.org/obo/so.owl")
+AnnotationAssertion(rdfs:label obo:SO_0001411 "biological region")
+SubClassOf(obo:SO_0001411 obo:SO_0000001)
 
 # Class: obo:SYMP_0000025 (dry cough)
 
@@ -8513,7 +8799,7 @@ SubClassOf(obo:VIDO_0001414 ObjectSomeValuesFrom(obo:OBI_0000299 obo:VIDO_000141
 
 # Class: obo:VIDO_0001415 (viral reassortment)
 
-AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001415 "Genetic recombination involving the exchange of entire viral genome segments that are released into a host cell co-infected by two or more segmented RNA virus strains, resulting in the formation of novel viral progeny inheriting genome segments from multiple parental strains.")
+AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001415 "Genetic recombination involving the exchange of entire genomic segments released into a host cell that is co-infected by two or more segmented RNA virus strains, resulting in the formation of novel viral progeny inheriting genomic segments from multiple parental strains.")
 AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001415 "Shane Babcock")
 AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001415 "http://purl.obolibrary.org/obo/vido.owl")
 AnnotationAssertion(rdfs:label obo:VIDO_0001415 "viral reassortment")
@@ -8559,6 +8845,165 @@ AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001420 "John Beverley")
 AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001420 "http://purl.obolibrary.org/obo/vido.owl")
 AnnotationAssertion(rdfs:label obo:VIDO_0001420 "virus incubation process")
 SubClassOf(obo:VIDO_0001420 obo:IDO_0001384)
+
+# Class: obo:VIDO_0001421 (viral genome)
+
+AnnotationAssertion(obo:IAO_0000114 obo:VIDO_0001421 obo:IAO_0000428)
+AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001421 "Genome comprising the entire genetic information of a virus, encoded in either DNA or RNA.")
+AnnotationAssertion(obo:IAO_0000116 obo:VIDO_0001421 "This is a working definition that needs vetting. The same applies for the subclasses of this term.
+
+Note that scientists also talk of genomes existing in a purely informational state as nucleotide sequences in computer files. See \"What is a Genome?\" [PMID: 27442251]. So we need to say this in a way that doesn't make it a necessary condition that the genetic information be concretized in nucleic acids (as opposed to a computer file). -SB [11/10/2020]")
+AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001421 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001421 "http://purl.obolibrary.org/obo/vido.owl")
+AnnotationAssertion(oboInOwl:hasDbXref obo:VIDO_0001421 "GO:0019015, obsolete viral genome")
+AnnotationAssertion(rdfs:label obo:VIDO_0001421 "viral genome")
+SubClassOf(obo:VIDO_0001421 obo:SO_0001026)
+
+# Class: obo:VIDO_0001422 (RNA viral genome)
+
+AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001422 "Viral genome that is encoded in ribonucleic acid.")
+AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001422 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000119 obo:VIDO_0001422 "\"Principles of Molecular Virology\" (ISBN:0121585336)
+GO:0019022")
+AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001422 "http://purl.obolibrary.org/obo/vido.owl")
+AnnotationAssertion(oboInOwl:hasDbXref obo:VIDO_0001422 "GO:0019022, obsolete RNA viral genome")
+AnnotationAssertion(rdfs:comment obo:VIDO_0001422 "The viral genome being contained in ribonucleic acid results in genome replication and expression of genetic information being inextricably linked.")
+AnnotationAssertion(rdfs:label obo:VIDO_0001422 "RNA viral genome")
+SubClassOf(obo:VIDO_0001422 obo:VIDO_0001421)
+
+# Class: obo:VIDO_0001423 (segmented RNA viral genome)
+
+AnnotationAssertion(obo:IAO_0000114 obo:VIDO_0001423 obo:IAO_0000428)
+AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001423 "RNA viral genome that is encoded in two or more physically separate, independently replicating RNA molecules that are packaged into a single virion.")
+AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001423 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000119 obo:VIDO_0001423 "\"Principles of Molecular Virology\" (ISBN:0121585336)
+GO:0019017")
+AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001423 "http://purl.obolibrary.org/obo/vido.owl")
+AnnotationAssertion(oboInOwl:hasDbXref obo:VIDO_0001423 "GO:0019017, obsolete segmented viral genome")
+AnnotationAssertion(rdfs:comment obo:VIDO_0001423 "The independently replicating RNA molecules that together contain the viral genome are referred to as 'genomic segments'. \"RNA viruses can possess either a single segment (such that they are unsegmented) or multiple segments. Those with multiple segments may experience reassortment.\" [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3324781/]")
+AnnotationAssertion(rdfs:label obo:VIDO_0001423 "segmented RNA viral genome")
+SubClassOf(obo:VIDO_0001423 obo:VIDO_0001422)
+DisjointClasses(obo:VIDO_0001423 obo:VIDO_0001430)
+
+# Class: obo:VIDO_0001424 (non-segmented RNA viral genome)
+
+AnnotationAssertion(obo:IAO_0000114 obo:VIDO_0001424 obo:IAO_0000428)
+AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001424 "RNA viral genome that is encoded in one continuous independently replicating RNA molecule.")
+AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001424 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000119 obo:VIDO_0001424 "\"Principles of Molecular Virology\" (ISBN:0121585336)
+GO:0019016")
+AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001424 "http://purl.obolibrary.org/obo/vido.owl")
+AnnotationAssertion(oboInOwl:hasDbXref obo:VIDO_0001424 "GO:0019016, obsolete non-segmented viral genome")
+AnnotationAssertion(rdfs:label obo:VIDO_0001424 "non-segmented RNA viral genome")
+SubClassOf(obo:VIDO_0001424 obo:VIDO_0001422)
+
+# Class: obo:VIDO_0001425 (double-stranded RNA viral genome)
+
+AnnotationAssertion(obo:IAO_0000114 obo:VIDO_0001425 obo:IAO_0000428)
+AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001425 "RNA viral genome that is encoded in double-stranded RNA.")
+AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001425 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000119 obo:VIDO_0001425 "\"Principles of Molecular Virology\" (ISBN:0121585336)
+GO:0019023")
+AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001425 "http://purl.obolibrary.org/obo/vido.owl")
+AnnotationAssertion(oboInOwl:hasDbXref obo:VIDO_0001425 "GO:0019023, obsolete dsRNA viral genome")
+AnnotationAssertion(rdfs:label obo:VIDO_0001425 "double-stranded RNA viral genome")
+SubClassOf(obo:VIDO_0001425 obo:VIDO_0001422)
+
+# Class: obo:VIDO_0001426 (single-stranded RNA viral genome)
+
+AnnotationAssertion(obo:IAO_0000114 obo:VIDO_0001426 obo:IAO_0000428)
+AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001426 "RNA viral genome that is encoded in single stranded RNA, and is of either positive or negative sense.")
+AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001426 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000119 obo:VIDO_0001426 "\"Principles of Molecular Virology\" (ISBN:0121585336)
+GO:0019024")
+AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001426 "http://purl.obolibrary.org/obo/vido.owl")
+AnnotationAssertion(oboInOwl:hasDbXref obo:VIDO_0001426 "GO:0019024, obsolete ssRNA viral genome")
+AnnotationAssertion(rdfs:label obo:VIDO_0001426 "single-stranded RNA viral genome")
+SubClassOf(obo:VIDO_0001426 obo:VIDO_0001422)
+
+# Class: obo:VIDO_0001427 (negative-sense single-stranded RNA viral genome)
+
+AnnotationAssertion(obo:IAO_0000114 obo:VIDO_0001427 obo:IAO_0000428)
+AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001427 "Single-stranded RNA viral genome that has the opposite nucleotide polarity as mRNA.")
+AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001427 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000119 obo:VIDO_0001427 "\"Principles of Molecular Virology\" (ISBN:0121585336)
+GO:0019026")
+AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001427 "http://purl.obolibrary.org/obo/vido.owl")
+AnnotationAssertion(oboInOwl:hasDbXref obo:VIDO_0001427 "GO:0019026, obsolete negative sense viral genome")
+AnnotationAssertion(rdfs:label obo:VIDO_0001427 "negative-sense single-stranded RNA viral genome")
+SubClassOf(obo:VIDO_0001427 obo:VIDO_0001426)
+
+# Class: obo:VIDO_0001428 (positive-sense single-stranded RNA viral genome)
+
+AnnotationAssertion(obo:IAO_0000114 obo:VIDO_0001428 obo:IAO_0000428)
+AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001428 "Single-stranded RNA viral genome that has the same nucleotide polarity as mRNA.")
+AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001428 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000119 obo:VIDO_0001428 "\"Principles of Molecular Virology\" (ISBN:0121585336)
+GO:0019025")
+AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001428 "http://purl.obolibrary.org/obo/vido.owl")
+AnnotationAssertion(oboInOwl:hasDbXref obo:VIDO_0001428 "GO:0019025, obsolete positive sense viral genome")
+AnnotationAssertion(rdfs:label obo:VIDO_0001428 "positive-sense single-stranded RNA viral genome")
+SubClassOf(obo:VIDO_0001428 obo:VIDO_0001426)
+
+# Class: obo:VIDO_0001429 (DNA viral genome)
+
+AnnotationAssertion(obo:IAO_0000114 obo:VIDO_0001429 obo:IAO_0000428)
+AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001429 "Viral genome that is encoded in deoxyribonucleic acid.")
+AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001429 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000119 obo:VIDO_0001429 "\"Principles of Molecular Virology\" (ISBN:0121585336)
+GO:0019021")
+AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001429 "http://purl.obolibrary.org/obo/vido.owl")
+AnnotationAssertion(oboInOwl:hasDbXref obo:VIDO_0001429 "GO:0019021, obsolete DNA viral genome")
+AnnotationAssertion(rdfs:label obo:VIDO_0001429 "DNA viral genome")
+SubClassOf(obo:VIDO_0001429 obo:VIDO_0001421)
+
+# Class: obo:VIDO_0001430 (multipartite viral genome)
+
+AnnotationAssertion(obo:IAO_0000114 obo:VIDO_0001430 obo:IAO_0000428)
+AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001430 "Viral genome that is encoded in two or more segmented nucleic acids, each of which is packaged into a separate virion.")
+AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001430 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000119 obo:VIDO_0001430 "\"Principles of Molecular Virology\" (ISBN:0121585336)
+GO:0019020")
+AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001430 "http://purl.obolibrary.org/obo/vido.owl")
+AnnotationAssertion(oboInOwl:hasDbXref obo:VIDO_0001430 "GO:0019020, obsolete multipartite viral genome")
+AnnotationAssertion(rdfs:comment obo:VIDO_0001430 "Virologists sometimes characterize multipartite viral genomes as segmented genomes. But the label 'segmented RNA viral genome' is regularly used for the genome of a virus that has multiple RNA molecules packaged within a single virion. So it is important not to confuse the two.")
+AnnotationAssertion(rdfs:label obo:VIDO_0001430 "multipartite viral genome")
+SubClassOf(obo:VIDO_0001430 obo:VIDO_0001421)
+
+# Class: obo:VIDO_0001431 (bipartite viral genome)
+
+AnnotationAssertion(obo:IAO_0000114 obo:VIDO_0001431 obo:IAO_0000428)
+AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001431 "Multipartite viral genome that is encoded in two segmented nucleic acids, each of which is packaged into a separate virion.")
+AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001431 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000119 obo:VIDO_0001431 "\"Principles of Molecular Virology\" (ISBN:0121585336)
+GO:0019018")
+AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001431 "http://purl.obolibrary.org/obo/vido.owl")
+AnnotationAssertion(oboInOwl:hasDbXref obo:VIDO_0001431 "GO:0019018, obsolete bipartite viral genome")
+AnnotationAssertion(rdfs:label obo:VIDO_0001431 "bipartite viral genome")
+SubClassOf(obo:VIDO_0001431 obo:VIDO_0001430)
+
+# Class: obo:VIDO_0001432 (tripartite viral genome)
+
+AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001432 "Multipartite viral genome that is encoded in three segmented nucleic acids, each of which is packaged into a separate virion.")
+AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001432 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000119 obo:VIDO_0001432 "\"Principles of Molecular Virology\" (ISBN:0121585336)
+GO:0019019")
+AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001432 "http://purl.obolibrary.org/obo/vido.owl")
+AnnotationAssertion(oboInOwl:hasDbXref obo:VIDO_0001432 "GO:0019019, obsolete tripartite viral genome")
+AnnotationAssertion(rdfs:label obo:VIDO_0001432 "tripartite viral genome")
+SubClassOf(obo:VIDO_0001432 obo:VIDO_0001430)
+
+# Class: obo:VIDO_0001433 (ambisense single-stranded RNA viral genome)
+
+AnnotationAssertion(obo:IAO_0000114 obo:VIDO_0001433 obo:IAO_0000428)
+AnnotationAssertion(obo:IAO_0000115 obo:VIDO_0001433 "Single-stranded RNA viral genome that contains coding regions that are either positive sense or negative sense on the same RNA molecule.")
+AnnotationAssertion(obo:IAO_0000117 obo:VIDO_0001433 "Shane Babcock")
+AnnotationAssertion(obo:IAO_0000119 obo:VIDO_0001433 "\"Principles of Molecular Virology\" (ISBN:0121585336)
+GO:0019027")
+AnnotationAssertion(obo:IAO_0000412 obo:VIDO_0001433 "http://purl.obolibrary.org/obo/vido.owl")
+AnnotationAssertion(oboInOwl:hasDbXref obo:VIDO_0001433 "GO:00019027, obsolete ambisense viral genome")
+AnnotationAssertion(rdfs:label obo:VIDO_0001433 "ambisense single-stranded RNA viral genome")
+SubClassOf(obo:VIDO_0001433 obo:VIDO_0001426)
 
 # Class: <http://purl.obolibrary.org/obo/COVIDO:0001287> (SARS-CoV-2 penetration disposition)
 
